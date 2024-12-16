@@ -1,4 +1,4 @@
-class Factorial {
+class factorial {
     public static void main(String args[]) {
         // Predefined value for factorial calculation
         int n = 5; // Example: Change this to any number for a different factorial
