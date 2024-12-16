@@ -1,16 +1,15 @@
-import java.util.*;
-class factorial{
-public static void main(String args[])
-{
-Scanner numobj=new Scanner(System.in);
-int i,n=10,fact=1;
-System.out.println("Enter a no:");
-n=numobj.nextInt();
-for(i=1;i<=n;i++){
-fact=fact*i;
-}
-System.out.println(fact);
-}
+class Factorial {
+    public static void main(String args[]) {
+        // Predefined value for factorial calculation
+        int n = 5; // Example: Change this to any number for a different factorial
+        int fact = 1;
+
+        for (int i = 1; i <= n; i++) {
+            fact = fact * i;
+        }
+
+        System.out.println("The factorial of " + n + " is: " + fact);
+    }
 }
 
 
